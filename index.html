@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Nevorix Technologies | Software Training Institute in Visakhapatnam</title>
+
+<meta name="description" content="...">
+
+<meta name="keywords" content="...">
+
+<meta name="author" content="Nevorix Technologies">
+
+<meta name="robots" content="index, follow">
+
+<link rel="icon" href="images/logo.png.jpeg" type="image/jpeg">
+
+<meta property="og:title" content="Nevorix Technologies">
+<meta property="og:description" content="Professional Software Training Institute in Visakhapatnam">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://nevorixtechnologies-git.github.io/nevorix-technologies/">
+<meta property="og:image" content="https://nevorixtechnologies-git.github.io/nevorix-technologies/images/logo.png.jpeg">
+
+<!-- Google Fonts -->
+...
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+    scroll-behavior:smooth;
+}<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "name": "Nevorix Technologies",
+  "url": "https://nevorixtechnologies-git.github.io/nevorix-technologies/",
+  "logo": "https://nevorixtechnologies-git.github.io/nevorix-technologies/images/logo.png.jpeg",
+  "description": "Software Training Institute in Visakhapatnam offering Java Full Stack, Python Full Stack, Data Science, AI and Web Development courses.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Visakhapatnam",
+    "addressRegion": "Andhra Pradesh",
+    "addressCountry": "IN"
+  }
+}
+</script>
+
+body{
+    background:#0f172a;
+    color:#fff;
+}
+
+/* ================= NAVBAR ================= */
+
+nav{
+    width:100%;
+    background:#111827;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 80px;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    box-shadow:0 5px 20px rgba(0,0,0,.3);
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.logo img{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+}
+
+.logo h2{
+    color:#38bdf8;
+    font-size:30px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:35px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    transition:.3s;
+}
+
+nav ul li a:hover{
+    color:#38bdf8;
+}
+
+/* ================= HERO ================= */
+
+.hero{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+}
+
+.hero h1{
+    font-size:65px;
+    color:#38bdf8;
+    margin-bottom:20px;
+}
+
+.hero p{
+    max-width:850px;
+    font-size:22px;
+    line-height:40px;
+    margin-bottom:40px;
+}
+
+.buttons{
+    display:flex;
+    gap:20px;
+}
+
+.btn{
+    padding:15px 40px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:20px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#1d4ed8;
+    transform:translateY(-3px);
+}
+
+/* ================= COMMON ================= */
+
+section{
+    padding:100px 80px;
+}
+
+.title{
+    text-align:center;
+    color:#38bdf8;
+    font-size:50px;
+    margin-bottom:60px;
+}
+
+/* ================= ABOUT ================= */
+
+.about-content{
+    max-width:1000px;
+    margin:auto;
+    text-align:center;
+}
+
+.about-content p{
+    font-size:22px;
+    line-height:40px;
+}
+
+/* ================= STATS ================= */
+
+.stats{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.stat-box{
+    width:250px;
+    background:#1e293b;
+    padding:35px;
+    border-radius:12px;
+    text-align:center;
+    transition:.3s;
+}
+
+.stat-box:hover{
+    transform:translateY(-10px);
+}
+
+.stat-box h2{
+    color:#38bdf8;
+    font-size:42px;
+}
+
+.stat-box p{
+    margin-top:15px;
+    font-size:20px;
+}
+
+    </style>
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">
+<img src="images/logo.png.jpeg" alt="">
+<h2>Nevorix Technologies</h2>
+</div>
+
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#courses">Courses</a></li>
+<li><a href="#trainer">Trainer</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+</nav>
+
+<section class="hero">
+
+<h1>Build Your IT Career With Nevorix Technologies</h1>
+
+<p>
+Online & Offline Software Training,
+Live Projects,
+Expert Trainers,
+100% Placement Assistance.
+</p>
+
+<div class="buttons">
+<button class="btn">Enroll Now</button>
+<button class="btn">Explore Courses</button>
+</div>
+
+</section>
+
+<section id="about">
+
+<h1 class="title">About Us</h1>
+
+<div class="about-content">
+
+<p>
+
+Nevorix Technologies is a Professional Software Training Institute located in Visakhapatnam.
+
+We provide Java Full Stack,
+Python Full Stack,
+Data Science,
+Artificial Intelligence,
+Web Development,
+Internship Programs,
+Live Projects,
+Resume Building,
+Mock Interviews and Placement Assistance.
+
+</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h1 class="title">Our Achievements</h1>
+
+<div class="stats">
+
+<div class="stat-box">
+<h2>5000+</h2>
+<p>Students Trained</p>
+</div>
+
+<div class="stat-box">
+<h2>1500+</h2>
+<p>Placements</p>
+</div>
+
+<div class="stat-box">
+<h2>25+</h2>
+<p>Courses</p>
+</div>
+
+<div class="stat-box">
+<h2>30+</h2>
+<p>Expert Trainers</p>
+</div>
+
+</div>
+
+</section>
+<!-- ================= WHY CHOOSE US ================= -->
+
+<section id="why">
+
+    <h1 class="title">Why Choose Nevorix?</h1>
+
+    <div class="stats">
+
+        <div class="stat-box">
+            <h2>💻</h2>
+            <p>Live Projects</p>
+        </div>
+
+        <div class="stat-box">
+            <h2>🎯</h2>
+            <p>100% Placement Assistance</p>
+        </div>
+
+        <div class="stat-box">
+            <h2>👨‍🏫</h2>
+            <p>Expert Trainers</p>
+        </div>
+
+        <div class="stat-box">
+            <h2>📜</h2>
+            <p>Course Completion Certificate</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= COURSES ================= -->
+
+<section id="courses">
+
+    <h1 class="title">Our Courses</h1>
+
+    <div class="stats">
+
+        <div class="stat-box">
+            <h2>Java</h2>
+            <p>Java Full Stack Development</p>
+        </div>
+
+        <div class="stat-box">
+            <h2>Python</h2>
+            <p>Python Full Stack Development</p>
+        </div>
+
+        <div class="stat-box">
+            <h2>AI</h2>
+            <p>Data Science & Artificial Intelligence</p>
+        </div>
+
+        <div class="stat-box">
+            <h2>Web</h2>
+            <p>HTML, CSS, JavaScript & React</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= TRAINER ================= -->
+
+<section id="trainer">
+
+    <h1 class="title">Meet Our Trainer</h1>
+
+    <div class="stats">
+
+        <div class="stat-box">
+
+            <img src="images/varma.jpg"
+                 style="width:180px;height:180px;border-radius:50%;object-fit:cover;">
+
+            <h2 style="font-size:30px;margin-top:20px;">
+                Mr. Varma
+            </h2>
+
+            <p>
+                Senior Full Stack Developer
+            </p>
+
+            <p>
+                8+ Years Industry Experience
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= GALLERY ================= -->
+
+<section id="gallery">
+
+    <h1 class="title">Gallery</h1>
+
+    <div class="stats">
+
+        <div class="stat-box">
+            <img src="images/gallery1.png" alt="Gallery Image 1"
+                 style="width:100%; border-radius:10px;">
+        </div>
+
+        <div class="stat-box">
+            <img src="images/gallery2.png" alt="Gallery Image 2"
+                 style="width:100%; border-radius:10px;">
+        </div>
+
+    </div>
+
+
+</section>
+
+<!-- ================= TESTIMONIALS ================= -->
+
+<section id="reviews">
+
+<h1 class="title">
+Student Testimonials
+</h1>
+
+<div class="stats">
+
+<div class="stat-box">
+
+<h2>⭐⭐⭐⭐⭐</h2>
+
+<p>
+
+"Excellent training and real-time projects.
+I got placed after completing Java Full Stack."
+
+</p>
+
+<br>
+
+<b>- Sai Kiran</b>
+
+</div>
+
+<div class="stat-box">
+
+<h2>⭐⭐⭐⭐⭐</h2>
+
+<p>
+
+"Best Software Training Institute in Visakhapatnam."
+
+</p>
+
+<br>
+
+<b>- Priya</b>
+
+</div>
+
+<div class="stat-box">
+
+<h2>⭐⭐⭐⭐⭐</h2>
+
+<p>
+
+"Professional trainers and placement support."
+
+</p>
+
+<br>
+
+<b>- Rahul</b>
+
+</div>
+
+</div>
+
+</section>
+<!-- ================= PLACEMENT PARTNERS ================= -->
+
+<section id="placements">
+
+    <h1 class="title">Placement Partners</h1>
+
+    <div class="stats">
+
+        <div class="stat-box">
+            <h2>TCS</h2>
+            <p>Hiring Partner</p>
+        </div>
+
+        <div class="stat-box">
+            <h2>Infosys</h2>
+            <p>Hiring Partner</p>
+        </div>
+
+        <div class="stat-box">
+            <h2>Wipro</h2>
+            <p>Hiring Partner</p>
+        </div>
+
+        <div class="stat-box">
+            <h2>Accenture</h2>
+            <p>Hiring Partner</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= FAQ ================= -->
+
+<section id="faq">
+
+    <h1 class="title">Frequently Asked Questions</h1>
+
+    <div class="stats">
+
+        <div class="stat-box">
+            <h2>❓</h2>
+            <p>Do you provide Placement Assistance?<br><br>✅ Yes, 100% Placement Assistance.</p>
+        </div>
+
+        <div class="stat-box">
+            <h2>🎓</h2>
+            <p>Do you provide Certificates?<br><br>✅ Yes, after course completion.</p>
+        </div>
+
+        <div class="stat-box">
+            <h2>💻</h2>
+            <p>Online & Offline Classes?<br><br>✅ Both Available.</p>
+        </div>
+
+    </div>
+
+</section>
+<!-- ================= STUDENT REGISTRATION ================= -->
+
+<section id="registration">
+
+    <h1 class="title">Student Registration</h1>
+
+    <div class="register-box">
+
+        <form>
+
+            <input type="text" placeholder="Full Name" required>
+
+            <input type="tel" placeholder="Phone Number" required>
+
+            <input type="email" placeholder="Email Address" required>
+
+            <select required>
+                <option>Select Course</option>
+                <option>Java Full Stack</option>
+                <option>Python Full Stack</option>
+                <option>Data Science</option>
+                <option>Artificial Intelligence</option>
+                <option>Web Development</option>
+                <option>Internship Program</option>
+            </select>
+
+            <textarea placeholder="Your Message" rows="5"></textarea>
+
+            <button class="btn" type="submit">
+                Register Now
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+<!-- ================= CONTACT ================= -->
+
+<section id="contact">
+
+    <h1 class="title">Contact Us</h1>
+
+    <div style="max-width:700px;margin:auto;">
+
+        <form>
+
+            <input type="text"
+                   placeholder="Your Name"
+                   style="width:100%;padding:15px;margin:10px 0;border:none;border-radius:8px;">
+
+            <input type="email"
+                   placeholder="Your Email"
+                   style="width:100%;padding:15px;margin:10px 0;border:none;border-radius:8px;">
+
+            <input type="tel"
+                   placeholder="Phone Number"
+                   style="width:100%;padding:15px;margin:10px 0;border:none;border-radius:8px;">
+
+            <textarea
+                placeholder="Your Message"
+                rows="5"
+                style="width:100%;padding:15px;margin:10px 0;border:none;border-radius:8px;"></textarea>
+
+            <button class="btn" type="submit">
+                Send Message
+            </button>
+
+        </form>
+
+        <br><br>
+
+        <h3>📞 8185877395</h3>
+
+        <br>
+
+        <h3>📧 nevorixtechonologies@gmail.com</h3>
+
+        <br>
+
+        <h3>📍 Visakhapatnam</h3>
+
+    </div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer style="background:#111827;padding:40px;text-align:center;">
+
+    <h2 style="color:#38bdf8;">
+        Nevorix Technologies
+    </h2>
+
+    <br>
+
+    <p>
+        Build Your IT Career With Confidence.
+    </p>
+
+    <br>
+
+    <p>
+        © 2026 Nevorix Technologies.
+        All Rights Reserved.
+    </p>
+
+</footer>
+
+<!-- ================= WHATSAPP ================= -->
+
+<a href="https://wa.me/918185877395"
+   target="_blank"
+   style="
+   position:fixed;
+   bottom:25px;
+   right:25px;
+   background:#25D366;
+   color:white;
+   width:60px;
+   height:60px;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   border-radius:50%;
+   text-decoration:none;
+   font-size:30px;
+   box-shadow:0 5px 15px rgba(0,0,0,.3);
+   ">
+💬
+</a>
+<!-- ================= BACK TO TOP BUTTON ================= -->
+
+<button id="topBtn"
+style="
+display:none;
+position:fixed;
+bottom:100px;
+right:25px;
+width:55px;
+height:55px;
+border:none;
+border-radius:50%;
+background:#2563eb;
+color:white;
+font-size:22px;
+cursor:pointer;
+box-shadow:0 5px 15px rgba(0,0,0,.3);
+">
+↑
+</button>
+
+<script>
+
+/* ================= ENROLL BUTTON ================= */
+
+document.querySelectorAll(".btn").forEach(btn=>{
+
+btn.addEventListener("click",function(e){
+
+if(this.innerText==="Enroll Now"){
+
+alert("Welcome to Nevorix Technologies!");
+
+}
+
+});
+
+});
+
+/* ================= BACK TO TOP ================= */
+
+let topBtn=document.getElementById("topBtn");
+
+window.onscroll=function(){
+
+if(document.body.scrollTop>300||document.documentElement.scrollTop>300){
+
+topBtn.style.display="block";
+
+}else{
+
+topBtn.style.display="none";
+
+}
+
+}
+
+topBtn.onclick=function(){
+
+window.scrollTo({
+
+top:0,
+
+behavior:"smooth"
+
+});
+
+}
+
+/* ================= SIMPLE FADE ================= */
+
+const sections=document.querySelectorAll("section");
+
+const observer=new IntersectionObserver(entries=>{
+
+entries.forEach(entry=>{
+
+if(entry.isIntersecting){
+
+entry.target.style.opacity="1";
+
+entry.target.style.transform="translateY(0px)";
+
+}
+
+});
+
+});
+
+sections.forEach(sec=>{
+
+sec.style.opacity="0";
+
+sec.style.transform="translateY(40px)";
+
+sec.style.transition="1s";
+
+observer.observe(sec);
+
+});
+
+</script>
+
+</body>
+
+</html>
