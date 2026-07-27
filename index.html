@@ -1,401 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta charset="UTF-8">
+    <title>Nevorix Technologies | Software Training Institute</title>
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Nevorix Technologies - Python, Java, Full Stack, Data Science, Cloud Computing Training with Live Projects and Placement Assistance.">
 
-<title>Nevorix Technologies | Software Training Institute in Visakhapatnam</title>
+    <meta name="keywords"
+        content="Python, Java, Full Stack, Data Science, Cloud Computing, Training Institute">
 
-<meta name="description" content="...">
+    <meta name="author" content="Nevorix Technologies">
 
-<meta name="keywords" content="...">
+    <link rel="stylesheet" href="style.css">
 
-<meta name="author" content="Nevorix Technologies">
-
-<meta name="robots" content="index, follow">
-
-<link rel="icon" href="images/logo.png.jpeg" type="image/jpeg">
-
-<meta property="og:title" content="Nevorix Technologies">
-<meta property="og:description" content="Professional Software Training Institute in Visakhapatnam">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://nevorixtechnologies-git.github.io/nevorix-technologies/">
-<meta property="og:image" content="https://nevorixtechnologies-git.github.io/nevorix-technologies/images/logo.png.jpeg">
-
-<!-- Google Fonts -->
-...
-
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-    <style>
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:'Poppins',sans-serif;
-    scroll-behavior:smooth;
-}<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "EducationalOrganization",
-  "name": "Nevorix Technologies",
-  "url": "https://nevorixtechnologies-git.github.io/nevorix-technologies/",
-  "logo": "https://nevorixtechnologies-git.github.io/nevorix-technologies/images/logo.png.jpeg",
-  "description": "Software Training Institute in Visakhapatnam offering Java Full Stack, Python Full Stack, Data Science, AI and Web Development courses.",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Visakhapatnam",
-    "addressRegion": "Andhra Pradesh",
-    "addressCountry": "IN"
-  }
-}
-</script>
-
-body{
-    background:#0f172a;
-    color:#fff;
-}
-
-/* ================= NAVBAR ================= */
-
-nav{
-    width:100%;
-    background:#111827;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:18px 80px;
-    position:sticky;
-    top:0;
-    z-index:1000;
-    box-shadow:0 5px 20px rgba(0,0,0,.3);
-}
-
-.logo{
-    display:flex;
-    align-items:center;
-    gap:15px;
-}
-
-.logo img{
-    width:60px;
-    height:60px;
-    border-radius:50%;
-}
-
-.logo h2{
-    color:#38bdf8;
-    font-size:30px;
-}
-
-nav ul{
-    display:flex;
-    list-style:none;
-    gap:35px;
-}
-
-nav ul li a{
-    color:white;
-    text-decoration:none;
-    font-size:18px;
-    transition:.3s;
-}
-
-nav ul li a:hover{
-    color:#38bdf8;
-}
-
-/* ================= HERO ================= */
-
-.hero{
-    height:100vh;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    padding:20px;
-}
-
-.hero h1{
-    font-size:65px;
-    color:#38bdf8;
-    margin-bottom:20px;
-}
-
-.hero p{
-    max-width:850px;
-    font-size:22px;
-    line-height:40px;
-    margin-bottom:40px;
-}
-
-.buttons{
-    display:flex;
-    gap:20px;
-}
-
-.btn{
-    padding:15px 40px;
-    background:#2563eb;
-    color:white;
-    border:none;
-    border-radius:8px;
-    font-size:20px;
-    cursor:pointer;
-    transition:.3s;
-}
-
-.btn:hover{
-    background:#1d4ed8;
-    transform:translateY(-3px);
-}
-
-/* ================= COMMON ================= */
-
-section{
-    padding:100px 80px;
-}
-
-.title{
-    text-align:center;
-    color:#38bdf8;
-    font-size:50px;
-    margin-bottom:60px;
-}
-
-/* ================= ABOUT ================= */
-
-.about-content{
-    max-width:1000px;
-    margin:auto;
-    text-align:center;
-}
-
-.about-content p{
-    font-size:22px;
-    line-height:40px;
-}
-
-/* ================= STATS ================= */
-
-.stats{
-    display:flex;
-    justify-content:center;
-    gap:30px;
-    flex-wrap:wrap;
-}
-
-.stat-box{
-    width:250px;
-    background:#1e293b;
-    padding:35px;
-    border-radius:12px;
-    text-align:center;
-    transition:.3s;
-}
-
-.stat-box:hover{
-    transform:translateY(-10px);
-}
-
-.stat-box h2{
-    color:#38bdf8;
-    font-size:42px;
-}
-
-.stat-box p{
-    margin-top:15px;
-    font-size:20px;
-}
-
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
+
 
 <body>
 
-<nav>
+<header>
+
+<nav class="navbar">
 
 <div class="logo">
-<img src="images/logo.png.jpeg" alt="">
-<h2>Nevorix Technologies</h2>
+    <img src="images/logo.png" alt="Nevorix Technologies">
+    <h2>Nevorix Technologies</h2>
 </div>
 
-<ul>
-<li><a href="#">Home</a></li>
-<li><a href="#about">About</a></li>
-<li><a href="#courses">Courses</a></li>
-<li><a href="#trainer">Trainer</a></li>
-<li><a href="#contact">Contact</a></li>
+<ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#courses">Courses</a></li>
+    <li><a href="#placements">Placements</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#contact">Contact</a></li>
 </ul>
+
+<a href="#contact" class="btn">Join Now</a>
 
 </nav>
 
-<section class="hero">
+<section class="hero" id="home">
+
+<div class="hero-content">
 
 <h1>Build Your IT Career With Nevorix Technologies</h1>
 
 <p>
-Online & Offline Software Training,
-Live Projects,
-Expert Trainers,
-100% Placement Assistance.
+Learn Python, Java Full Stack, Data Science, AI and Cloud Computing
+through Live Projects, Industry Expert Trainers and Placement Assistance.
 </p>
 
-<div class="buttons">
-<button class="btn">Enroll Now</button>
-<button class="btn">Explore Courses</button>
+<div class="hero-buttons">
+<a href="#courses" class="hero-btn">Explore Courses</a>
+<a href="#contact" class="hero-btn secondary">Contact Us</a>
+</div>
+
+</div>
+
+<div class="hero-image">
+<img src="images/hero.png" alt="Hero Image">
 </div>
 
 </section>
 
-<section id="about">
+</header><!-- ABOUT SECTION -->
+<section class="about" id="about"data-aos="fade-up">
 
-<h1 class="title">About Us</h1>
+    <div class="about-content">
 
-<div class="about-content">
+        <h2>About Nevorix Technologies</h2>
 
-<p>
+        <p>
+            Nevorix Technologies is a professional Software Training Institute
+            providing industry-oriented training in Python, Java, Full Stack,
+            Data Science, AI and Cloud Computing.
+        </p>
 
-Nevorix Technologies is a Professional Software Training Institute located in Visakhapatnam.
+        <div class="about-boxes">
 
-We provide Java Full Stack,
-Python Full Stack,
-Data Science,
-Artificial Intelligence,
-Web Development,
-Internship Programs,
-Live Projects,
-Resume Building,
-Mock Interviews and Placement Assistance.
+            <div class="box">
+                <h3>1000+</h3>
+                <p>Students Trained</p>
+            </div>
 
-</p>
+            <div class="box">
+                <h3>50+</h3>
+                <p>Live Projects</p>
+            </div>
 
-</div>
-
-</section>
-
-<section>
-
-<h1 class="title">Our Achievements</h1>
-
-<div class="stats">
-
-<div class="stat-box">
-<h2>5000+</h2>
-<p>Students Trained</p>
-</div>
-
-<div class="stat-box">
-<h2>1500+</h2>
-<p>Placements</p>
-</div>
-
-<div class="stat-box">
-<h2>25+</h2>
-<p>Courses</p>
-</div>
-
-<div class="stat-box">
-<h2>30+</h2>
-<p>Expert Trainers</p>
-</div>
-
-</div>
-
-</section>
-<!-- ================= WHY CHOOSE US ================= -->
-
-<section id="why">
-
-    <h1 class="title">Why Choose Nevorix?</h1>
-
-    <div class="stats">
-
-        <div class="stat-box">
-            <h2>💻</h2>
-            <p>Live Projects</p>
-        </div>
-
-        <div class="stat-box">
-            <h2>🎯</h2>
-            <p>100% Placement Assistance</p>
-        </div>
-
-        <div class="stat-box">
-            <h2>👨‍🏫</h2>
-            <p>Expert Trainers</p>
-        </div>
-
-        <div class="stat-box">
-            <h2>📜</h2>
-            <p>Course Completion Certificate</p>
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ================= COURSES ================= -->
-
-<section id="courses">
-
-    <h1 class="title">Our Courses</h1>
-
-    <div class="stats">
-
-        <div class="stat-box">
-            <h2>Java</h2>
-            <p>Java Full Stack Development</p>
-        </div>
-
-        <div class="stat-box">
-            <h2>Python</h2>
-            <p>Python Full Stack Development</p>
-        </div>
-
-        <div class="stat-box">
-            <h2>AI</h2>
-            <p>Data Science & Artificial Intelligence</p>
-        </div>
-
-        <div class="stat-box">
-            <h2>Web</h2>
-            <p>HTML, CSS, JavaScript & React</p>
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ================= TRAINER ================= -->
-
-<section id="trainer">
-
-    <h1 class="title">Meet Our Trainer</h1>
-
-    <div class="stats">
-
-        <div class="stat-box">
-
-            <img src="images/varma.jpg"
-                 style="width:180px;height:180px;border-radius:50%;object-fit:cover;">
-
-            <h2 style="font-size:30px;margin-top:20px;">
-                Mr. Varma
-            </h2>
-
-            <p>
-                Senior Full Stack Developer
-            </p>
-
-            <p>
-                8+ Years Industry Experience
-            </p>
+            <div class="box">
+                <h3>100%</h3>
+                <p>Placement Assistance</p>
+            </div>
 
         </div>
 
@@ -403,384 +106,304 @@ Mock Interviews and Placement Assistance.
 
 </section>
 
+<!-- COURSES -->
 
-<!-- ================= GALLERY ================= -->
+<section class="courses" id="courses">
 
-<section id="gallery">
+<h2>Popular Courses</h2>
 
-    <h1 class="title">Gallery</h1>
+<div class="course-container">
 
-    <div class="stats">
-
-        <div class="stat-box">
-            <img src="images/gallery1.png" alt="Gallery Image 1"
-                 style="width:100%; border-radius:10px;">
-        </div>
-
-        <div class="stat-box">
-            <img src="images/gallery2.png" alt="Gallery Image 2"
-                 style="width:100%; border-radius:10px;">
-        </div>
-
-    </div>
-
-
-</section>
-
-<!-- ================= TESTIMONIALS ================= -->
-
-<section id="reviews">
-
-<h1 class="title">
-Student Testimonials
-</h1>
-
-<div class="stats">
-
-<div class="stat-box">
-
-<h2>⭐⭐⭐⭐⭐</h2>
-
-<p>
-
-"Excellent training and real-time projects.
-I got placed after completing Java Full Stack."
-
-</p>
-
-<br>
-
-<b>- Sai Kiran</b>
-
+<div class="course-card">
+<img src="images/python.png" alt="Python">
+<h3>Python Full Stack</h3>
+<p>Frontend, Backend & Database</p>
 </div>
 
-<div class="stat-box">
-
-<h2>⭐⭐⭐⭐⭐</h2>
-
-<p>
-
-"Best Software Training Institute in Visakhapatnam."
-
-</p>
-
-<br>
-
-<b>- Priya</b>
-
+<div class="course-card">
+<img src="images/java.png" alt="Java">
+<h3>Java Full Stack</h3>
+<p>Spring Boot + React</p>
 </div>
 
-<div class="stat-box">
+<div class="course-card">
+<img src="images/fullstack.png" alt="Full Stack">
+<h3>Full Stack Development</h3>
+<p>HTML, CSS, JavaScript, React</p>
+</div>
 
-<h2>⭐⭐⭐⭐⭐</h2>
+<div class="course-card">
+<img src="images/datascience.png" alt="Data Science">
+<h3>Data Science</h3>
+<p>Python, ML & AI</p>
+</div>
 
-<p>
-
-"Professional trainers and placement support."
-
-</p>
-
-<br>
-
-<b>- Rahul</b>
-
+<div class="course-card">
+<img src="images/cloud.png" alt="Cloud">
+<h3>Cloud Computing</h3>
+<p>AWS & Azure</p>
 </div>
 
 </div>
 
 </section>
-<!-- ================= PLACEMENT PARTNERS ================= -->
+<!-- WHY CHOOSE US -->
 
-<section id="placements">
+<section class="why-us" id="why">
 
-    <h1 class="title">Placement Partners</h1>
+    <h2>Why Choose Nevorix Technologies?</h2>
 
-    <div class="stats">
+    <div class="why-container">
 
-        <div class="stat-box">
-            <h2>TCS</h2>
-            <p>Hiring Partner</p>
+        <div class="why-card">
+            <h3>👨‍🏫 Expert Trainers</h3>
+            <p>Learn from experienced industry professionals with practical knowledge.</p>
         </div>
 
-        <div class="stat-box">
-            <h2>Infosys</h2>
-            <p>Hiring Partner</p>
+        <div class="why-card">
+            <h3>💻 Live Projects</h3>
+            <p>Work on real-time projects to gain hands-on experience.</p>
         </div>
 
-        <div class="stat-box">
-            <h2>Wipro</h2>
-            <p>Hiring Partner</p>
+        <div class="why-card">
+            <h3>🎓 Certification</h3>
+            <p>Receive an industry-recognized course completion certificate.</p>
         </div>
 
-        <div class="stat-box">
-            <h2>Accenture</h2>
-            <p>Hiring Partner</p>
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ================= FAQ ================= -->
-
-<section id="faq">
-
-    <h1 class="title">Frequently Asked Questions</h1>
-
-    <div class="stats">
-
-        <div class="stat-box">
-            <h2>❓</h2>
-            <p>Do you provide Placement Assistance?<br><br>✅ Yes, 100% Placement Assistance.</p>
-        </div>
-
-        <div class="stat-box">
-            <h2>🎓</h2>
-            <p>Do you provide Certificates?<br><br>✅ Yes, after course completion.</p>
-        </div>
-
-        <div class="stat-box">
-            <h2>💻</h2>
-            <p>Online & Offline Classes?<br><br>✅ Both Available.</p>
+        <div class="why-card">
+            <h3>💼 Placement Assistance</h3>
+            <p>Resume preparation, interview support, and placement guidance.</p>
         </div>
 
     </div>
 
 </section>
-<!-- ================= STUDENT REGISTRATION ================= -->
 
-<section id="registration">
+<!-- STATISTICS -->
 
-    <h1 class="title">Student Registration</h1>
+<section class="stats">
 
-    <div class="register-box">
-
-        <form>
-
-            <input type="text" placeholder="Full Name" required>
-
-            <input type="tel" placeholder="Phone Number" required>
-
-            <input type="email" placeholder="Email Address" required>
-
-            <select required>
-                <option>Select Course</option>
-                <option>Java Full Stack</option>
-                <option>Python Full Stack</option>
-                <option>Data Science</option>
-                <option>Artificial Intelligence</option>
-                <option>Web Development</option>
-                <option>Internship Program</option>
-            </select>
-
-            <textarea placeholder="Your Message" rows="5"></textarea>
-
-            <button class="btn" type="submit">
-                Register Now
-            </button>
-
-        </form>
-
+    <div class="stat-box">
+        <h2>1000+</h2>
+        <p>Students Trained</p>
     </div>
 
-</section>
-<!-- ================= CONTACT ================= -->
+    <div class="stat-box">
+        <h2>50+</h2>
+        <p>Live Projects</p>
+    </div>
 
-<section id="contact">
+    <div class="stat-box">
+        <h2>100+</h2>
+        <p>Hiring Partners</p>
+    </div>
 
-    <h1 class="title">Contact Us</h1>
-
-    <div style="max-width:700px;margin:auto;">
-
-        <form>
-
-            <input type="text"
-                   placeholder="Your Name"
-                   style="width:100%;padding:15px;margin:10px 0;border:none;border-radius:8px;">
-
-            <input type="email"
-                   placeholder="Your Email"
-                   style="width:100%;padding:15px;margin:10px 0;border:none;border-radius:8px;">
-
-            <input type="tel"
-                   placeholder="Phone Number"
-                   style="width:100%;padding:15px;margin:10px 0;border:none;border-radius:8px;">
-
-            <textarea
-                placeholder="Your Message"
-                rows="5"
-                style="width:100%;padding:15px;margin:10px 0;border:none;border-radius:8px;"></textarea>
-
-            <button class="btn" type="submit">
-                Send Message
-            </button>
-
-        </form>
-
-        <br><br>
-
-        <h3>📞 8185877395</h3>
-
-        <br>
-
-        <h3>📧 nevorixtechonologies@gmail.com</h3>
-
-        <br>
-
-        <h3>📍 Visakhapatnam</h3>
-
+    <div class="stat-box">
+        <h2>95%</h2>
+        <p>Placement Success</p>
     </div>
 
 </section>
 
-<!-- ================= FOOTER ================= -->
+<!-- PLACEMENTS -->
 
-<footer style="background:#111827;padding:40px;text-align:center;">
+<section class="placements" id="placements">
 
-    <h2 style="color:#38bdf8;">
-        Nevorix Technologies
-    </h2>
-
-    <br>
+    <h2>Placement Programs</h2>
 
     <p>
-        Build Your IT Career With Confidence.
+        We provide placement assistance through mock interviews,
+        aptitude training, resume building, and technical interview preparation.
     </p>
 
-    <br>
+    <div class="placement-cards">
+
+        <div class="course-card">
+            <h3>Resume Building</h3>
+        </div>
+
+        <div class="course-card">
+            <h3>Mock Interviews</h3>
+        </div>
+
+        <div class="course-card">
+            <h3>HR Training</h3>
+        </div>
+
+        <div class="course-card">
+            <h3>Technical Interviews</h3>
+        </div>
+
+    </div>
+
+</section>
+<!-- GALLERY -->
+
+<section class="gallery" id="gallery">
+
+    <h2>Gallery</h2>
+
+    <div class="gallery-container">
+
+        <img src="images/gallery1.png" alt="Gallery Image 1">
+        <img src="images/gallery2.png" alt="Gallery Image 2">
+        <img src="images/python.png" alt="Python Training">
+        <img src="images/java.png" alt="Java Training">
+
+    </div>
+
+</section>
+<!-- TESTIMONIALS -->
+<section class="testimonials" id="testimonials">
+
+    <h2>Student Reviews</h2>
+
+    <div class="testimonial-container">
+
+        <div class="testimonial-card">
+            <img src="images/varma.jpg" alt="Student">
+            <h3>Varma</h3>
+            <p>"Nevorix Technologies helped me learn Python Full Stack with live projects. Excellent trainers!"</p>
+            <span>⭐⭐⭐⭐⭐</span>
+        </div>
+
+        <div class="testimonial-card">
+            <img src="images/varma.jpg" alt="Student">
+            <h3>Ravi</h3>
+            <p>"Best Java Full Stack training institute. Practical sessions and placement support."</p>
+            <span>⭐⭐⭐⭐⭐</span>
+        </div>
+
+        <div class="testimonial-card">
+            <img src="images/varma.jpg" alt="Student">
+            <h3>Priya</h3>
+            <p>"I completed Data Science course and got confidence to attend interviews."</p>
+            <span>⭐⭐⭐⭐⭐</span>
+        </div>
+
+    </div>
+
+</section>
+<!-- ===== TRAINERS ===== -->
+
+<section class="trainers" id="trainers">
+
+    <h2>Meet Our Expert Trainers</h2>
+
+    <div class="trainer-container">
+
+        <div class="trainer-card">
+            <img src="images/varma.jpg" alt="Python Trainer">
+            <h3>Python Trainer</h3>
+            <p>Python, Django, Flask, AI & Machine Learning Expert.</p>
+        </div>
+
+        <div class="trainer-card">
+            <img src="images/varma.jpg" alt="Java Trainer">
+            <h3>Java Trainer</h3>
+            <p>Java, Spring Boot, Hibernate & Microservices Expert.</p>
+        </div>
+
+        <div class="trainer-card">
+            <img src="images/varma.jpg" alt="Full Stack Trainer">
+            <h3>Full Stack Trainer</h3>
+            <p>HTML, CSS, JavaScript, React & Node.js Specialist.</p>
+        </div>
+
+        <div class="trainer-card">
+            <img src="images/varma.jpg" alt="Data Science Trainer">
+            <h3>Data Science Trainer</h3>
+            <p>Data Science, Machine Learning & Cloud Computing Expert.</p>
+        </div>
+
+    </div>
+
+</section>
+<!-- ===== FAQ ===== -->
+
+<section class="faq" id="faq">
+
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-container">
+
+        <div class="faq-item">
+            <h3>📌 Do you provide Placement Assistance?</h3>
+            <p>Yes. We provide 100% Placement Assistance with interview preparation.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>📌 Are Online Classes Available?</h3>
+            <p>Yes. Both Online and Offline classes are available.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>📌 Will I get a Certificate?</h3>
+            <p>Yes. A Course Completion Certificate will be provided.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>📌 Do you provide Live Projects?</h3>
+            <p>Yes. Every student works on real-time live projects.</p>
+        </div>
+
+    </div>
+
+</section>
+<section class="contact" id="contact">
+
+    <h2>Contact Us</h2>
+
+    <div class="contact-container">
+
+        <div class="contact-info">
+            <h3>Nevorix Technologies</h3>
+
+            <p>📍 Visakhapatnam, Andhra Pradesh</p>
+            <p>📞 +91 91818 58739</p>
+            <p>📧 nevorixtechnologies@gmail.com</p>
+        </div>
+
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps?q=Visakhapatnam&output=embed"
+                width="100%"
+                height="350"
+                style="border:0;border-radius:12px;"
+                allowfullscreen=""
+                loading="lazy">
+            </iframe>
+        </div>
+
+    </div>
+
+</section>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+    <h3>Nevorix Technologies</h3>
 
     <p>
-        © 2026 Nevorix Technologies.
-        All Rights Reserved.
+        Learn • Build • Grow • Get Placed
+    </p>
+
+    <p>
+        © 2026 Nevorix Technologies. All Rights Reserved.
     </p>
 
 </footer>
 
-<!-- ================= WHATSAPP ================= -->
-
-<a href="https://wa.me/918185877395"
-   target="_blank"
-   style="
-   position:fixed;
-   bottom:25px;
-   right:25px;
-   background:#25D366;
-   color:white;
-   width:60px;
-   height:60px;
-   display:flex;
-   justify-content:center;
-   align-items:center;
-   border-radius:50%;
-   text-decoration:none;
-   font-size:30px;
-   box-shadow:0 5px 15px rgba(0,0,0,.3);
-   ">
-💬
+<script src="script.js"></script>
+<!-- WhatsApp Button -->
+<a href="https://wa.me/918185877395" class="whatsapp" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
 </a>
-<!-- ================= BACK TO TOP BUTTON ================= -->
-
-<button id="topBtn"
-style="
-display:none;
-position:fixed;
-bottom:100px;
-right:25px;
-width:55px;
-height:55px;
-border:none;
-border-radius:50%;
-background:#2563eb;
-color:white;
-font-size:22px;
-cursor:pointer;
-box-shadow:0 5px 15px rgba(0,0,0,.3);
-">
-↑
-</button>
-
-<script>
-
-/* ================= ENROLL BUTTON ================= */
-
-document.querySelectorAll(".btn").forEach(btn=>{
-
-btn.addEventListener("click",function(e){
-
-if(this.innerText==="Enroll Now"){
-
-alert("Welcome to Nevorix Technologies!");
-
-}
-
-});
-
-});
-
-/* ================= BACK TO TOP ================= */
-
-let topBtn=document.getElementById("topBtn");
-
-window.onscroll=function(){
-
-if(document.body.scrollTop>300||document.documentElement.scrollTop>300){
-
-topBtn.style.display="block";
-
-}else{
-
-topBtn.style.display="none";
-
-}
-
-}
-
-topBtn.onclick=function(){
-
-window.scrollTo({
-
-top:0,
-
-behavior:"smooth"
-
-});
-
-}
-
-/* ================= SIMPLE FADE ================= */
-
-const sections=document.querySelectorAll("section");
-
-const observer=new IntersectionObserver(entries=>{
-
-entries.forEach(entry=>{
-
-if(entry.isIntersecting){
-
-entry.target.style.opacity="1";
-
-entry.target.style.transform="translateY(0px)";
-
-}
-
-});
-
-});
-
-sections.forEach(sec=>{
-
-sec.style.opacity="0";
-
-sec.style.transform="translateY(40px)";
-
-sec.style.transition="1s";
-
-observer.observe(sec);
-
-});
-
-</script>
 
 </body>
-
 </html>
