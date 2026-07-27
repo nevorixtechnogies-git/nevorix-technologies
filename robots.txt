@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nevorixtechnogies-git.github.io/nevorix-technologies/sitemap.xml
